@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import SideMenu from './components/SideMenu.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <SideMenu menuName="Home"/>
+        <SideMenu menuName="Cadastro de Usuáries"/>
+        <SideMenu menuName="Cadastro de Projetos"/>
+        <SideMenu menuName="Buscar projetos"/>
+        <SideMenu menuName="Personalidades"/>
+        <SideMenu menuName="Quem somos"/>
+      </div>
     </div>
   );
 }

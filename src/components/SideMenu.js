@@ -1,5 +1,5 @@
 function SideMenu(props) {
-    <div>{menuName}</div>
+    <div>[menuName] </div>
 }
 
 export default SideMenu

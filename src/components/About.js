@@ -1,10 +1,12 @@
 import React from "react";
 import ProfileCard from "./ProfileCard";
 
-export const About = () => {
+const About = () => {
   return (
     <div>
       <ProfileCard />
     </div>
   );
 };
+
+export default About;

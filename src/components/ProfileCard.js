@@ -1,21 +1,28 @@
 import React from "react";
 
-const ProfileCard = () => {
+const ProfileCard = (
+  profileImg,
+  name,
+  bio,
+  github,
+  linkedin
+) => {
   return (
     <div>
-      <img src="" alt="Profile" />
+      <img src={profileImg} alt="Profile" />
       <div>
-        <p className="name">teste</p>
-        <p className="bio">
-          <a></a>
-        </p>
+        <p className="name">{name}</p>
+        <p className="bio">{bio}</p>
         <div>
-          <p className="github">
-            <a></a>
-          </p>
-          <p className="linkedin">
-            <a></a>
-          </p>
+        {/* resolver questão do prop de hiperlink */}
+          <a className="github">
+            <img src= alt="Github Icon" />
+            <p>Github</p>
+          </a>
+          <a className="linkedin">
+            <img src= alt="LinkedIn Icon" />
+            <p>LinkedIn</p>
+          </a>
         </div>
       </div>
     </div>

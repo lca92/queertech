@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import ProfileCard from "./ProfileCard";
 
 export const About = () => {
   return (
-    <div>About</div>
-  )
-}
+    <div>
+      <ProfileCard />
+    </div>
+  );
+};

@@ -1,0 +1,35 @@
+.home {
+  background-color: #e50000;
+  height: 16.5vh;
+  width: 5vw;
+}
+
+.account {
+  background-color: #f28627;
+  height: 16.5vh;
+  width: 5vw;
+}
+
+.newProject {
+  background-color: #ffee00;
+  height: 16.5vh;
+  width: 5vw;
+}
+
+.searchProject {
+  background-color: #008121;
+  height: 16.5vh;
+  width: 5vw;
+}
+
+.techPerson {
+  background-color: #004cff;
+  height: 16.5vh;
+  width: 5vw;
+}
+
+.about {
+  background-color: #760188;
+  height: 16.5vh;
+  width: 5vw;
+}

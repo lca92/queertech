@@ -1,14 +1,14 @@
-ul {
-  list-style-type: none;
-  width: ;
-  height: ;
-}
 li {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
   vertical-align: top;
-  height: 16.5vh;
-  width: 5vw;
-  margin: 0;
+  height: 16.666vh;
+  width: 10vw;
+  font-family: "Zilla Slab Highlight", sans-serif;
+  color: black;
 }
 
 .home {

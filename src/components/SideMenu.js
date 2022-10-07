@@ -1,30 +1,31 @@
 import { Link } from "react-router-dom";
+import "./SideMenu.css";
 
 function SideMenu() {
-  <div>
+  return (
     <nav className="sideMenu">
       <ul>
-        <Link to="">
+        <Link to="/">
           <li className="home">Home</li>
         </Link>
-        <Link to="">
+        <Link to="/account">
           <li className="account">Cadastro de Profissional</li>
         </Link>
-        <Link to="">
+        <Link to="/newProject">
           <li className="newProject">Cadastro de Projeto</li>
         </Link>
-        <Link to="">
+        <Link to="/searchProject">
           <li className="searchProject">Buscar Projetos</li>
         </Link>
-        <Link to="">
+        <Link to="/techPerson">
           <li className="techPerson">Personalidades</li>
         </Link>
-        <Link to="">
+        <Link to="/about">
           <li className="about">Quem Somos</li>
         </Link>
       </ul>
     </nav>
-  </div>;
+  );
 }
 
 export default SideMenu;

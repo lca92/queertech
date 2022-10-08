@@ -2,13 +2,13 @@
     margin: 0;
   }
   
-  ul {
+  .homeMenu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
   
-  li {
+  .homeMenu li {
     vertical-align: top;
     display: inline-flex;
     align-items: center;
@@ -18,68 +18,68 @@
     width: 500px;
     margin: 0;
     font-size: 30px;
-    color: #fff;
+    color: #000;
     letter-spacing: 5px;
   }
   
-  .home {
+  .homePrincipal {
     background-color: #e50000;
     font-family: bebas-neue, sans-serif;
     opacity: 0.4;
   }
   
-  .home:hover{
+  .homePrincipal:hover{
     opacity: 1.0;
   }
   
   
-  .account {
+  .accountPrincipal {
     background-color: #f28627;
     font-family: bebas-neue, sans-serif;
     opacity: 0.4;
   }
   
-  .account:hover{
+  .accountPrincipal:hover{
     opacity: 1.0;
   }
   
-  .newProject {
+  .newProjectPrincipal {
     background-color: #ffee00;
     font-family: bebas-neue, sans-serif;
     opacity: 0.4;
   }
   
-  .newProject:hover{
+  .newProjectPrincipal:hover{
     opacity: 1.0;
   }
   
-  .searchProject {
+  .searchProjectPrincipal {
     background-color: #008121;
     font-family: bebas-neue, sans-serif;
     opacity: 0.4;
   }
   
-  .searchProject:hover{
+  .searchProjectPrincipal:hover{
     opacity: 1.0;
   }
   
-  .techPerson {
+  .techPersonPrincipal {
     background-color: #004cff;
     font-family: bebas-neue, sans-serif;
     opacity: 0.4;
   }
   
-  .techPerson:hover{
+  .techPersonPrincipal:hover{
     opacity: 1.0;
   }
   
-  .about {
+  .aboutPrincipal {
     background-color: #760188;
     font-family: bebas-neue, sans-serif;
     opacity: 0.4;
   }
   
-  .about:hover{
+  .aboutPrincipal:hover{
     opacity: 1.0;
   }
   

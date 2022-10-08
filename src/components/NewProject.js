@@ -1,8 +1,15 @@
-import React from 'react'
+import SideMenu from "./SideMenu";
+import './NewProject.css';
+
 
 const NewProject = () => {
   return (
-    <div>NewProject</div>
+    <div className="newProjectPage">
+      <div>NewProject</div>
+      <div>
+        <SideMenu/>
+      </div>
+      </div>
   )
 }
 

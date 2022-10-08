@@ -7,18 +7,19 @@ const ProfileCard = ({ profileImg, name, bio, github, linkedin }) => {
       <div>
         <p className="name">{name}</p>
         <p className="bio">{bio}</p>
-        <div>
+
           <a href={github} className="github">
             <img src="" alt="Github Icon" />
             <p>Github</p>
           </a>
+
           <a href={linkedin} className="linkedin">
             <img src="" alt="LinkedIn Icon" />
             <p>LinkedIn</p>
           </a>
+
         </div>
       </div>
-    </div>
   );
 };
 

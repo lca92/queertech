@@ -1,9 +1,15 @@
-import React from 'react'
+import SideMenu from "./SideMenu";
+import "./SearchProject.css";
 
 const SearchProject = () => {
   return (
-    <div>SearchProject</div>
-  )
-}
+    <div className="searchProjectPage">
+      <div>SearchProject</div>
+      <div>
+        <SideMenu />
+      </div>
+    </div>
+  );
+};
 
-export default SearchProject
+export default SearchProject;

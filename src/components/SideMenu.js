@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import "./SideMenu.css";
 
@@ -29,3 +30,4 @@ function SideMenu() {
 }
 
 export default SideMenu;
+

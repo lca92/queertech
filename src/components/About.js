@@ -1,13 +1,10 @@
 import React from "react";
 import ProfileCard from "./ProfileCard";
-import SideMenu from "./SideMenu";
+import SideMenu from "./SideMenu.js";
 
 const About = () => {
   return (
     <div>
-    {/* <div>
-        <SideMenu />
-      </div> */}
       <div>
         <ProfileCard
           profileImg=""

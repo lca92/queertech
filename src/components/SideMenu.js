@@ -12,13 +12,13 @@ function SideMenu() {
         <Link to="/account" style={{textDecoration:'none'}}>
           <li className="account">Cadastro de Profissional</li>
         </Link>
-        <Link to="/newProject" style={{textDecoration:'none'}}>
+        <Link to="/new-project" style={{textDecoration:'none'}}>
           <li className="newProject">Cadastro de Projeto</li>
         </Link>
-        <Link to="/searchProject" style={{textDecoration:'none'}}>
+        <Link to="/search-project" style={{textDecoration:'none'}}>
           <li className="searchProject">Buscar Projetos</li>
         </Link>
-        <Link to="/techPerson" style={{textDecoration:'none'}}>
+        <Link to="/tech-person" style={{textDecoration:'none'}}>
           <li className="techPerson">Personalidades</li>
         </Link>
         <Link to="/about" style={{textDecoration:'none'}}>

@@ -1,9 +1,15 @@
-import React from 'react'
+import SideMenu from "./SideMenu";
+import "./TechPerson.css";
 
 const TechPerson = () => {
   return (
-    <div>TechPerson</div>
-  )
-}
+    <div className="techPersonPage">
+      <div>TechPerson</div>
+      <div>
+        <SideMenu />
+      </div>
+    </div>
+  );
+};
 
-export default TechPerson
+export default TechPerson;

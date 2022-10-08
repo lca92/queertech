@@ -28,9 +28,9 @@ const UserForm = (props) => {
           <button type="submit">Salvar</button>
         </form>
       </div>
-      <div>
+      {/* <div>
         <SideMenu />
-      </div>
+      </div> */}
     </div>
   );
 };

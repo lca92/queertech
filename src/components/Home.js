@@ -1,10 +1,10 @@
 import React from "react";
-import SideMenu from "./SideMenu";
+import HomeMenu from "./HomeMenu";
 
 const Home = () => {
   return (
     <div>
-      <SideMenu />
+      <HomeMenu />
     </div>
   );
 };

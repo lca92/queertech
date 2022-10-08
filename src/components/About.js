@@ -6,8 +6,6 @@ const About = () => {
   return (
     <div>
       <div>
-      </div>
-      <div>
         <ProfileCard
           profileImg=""
           name="Roxanie Fernandes"

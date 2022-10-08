@@ -7,6 +7,5 @@ const Home = () => {
       <HomeMenu />
     </div>
   );
-};
 
 export default Home;

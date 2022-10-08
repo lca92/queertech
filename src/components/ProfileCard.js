@@ -7,8 +7,6 @@ const ProfileCard = ({ profileImg, name, bio, github, linkedin }) => {
       <div>
         <p className="name">{name}</p>
         <p className="bio">{bio}</p>
-        
-        <div>
 
           <a href={github} className="github">
             <img src="" alt="Github Icon" />

@@ -1,0 +1,38 @@
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  vertical-align: top;
+  height: 16.666vh;
+  width: 10vw;
+  font-family: "Zilla Slab Highlight", sans-serif;
+  color: black;
+}
+
+.home {
+  background-color: #e50000;
+}
+
+.account {
+  background-color: #f28627;
+}
+
+.newProject {
+  background-color: #ffee00;
+}
+
+.searchProject {
+  background-color: #008121;
+}
+
+.techPerson {
+  background-color: #004cff;
+}
+
+.about {
+  background-color: #760188;
+}
+

@@ -20,7 +20,6 @@ const ProfileCard = ({ profileImg, name, bio, github, linkedin }) => {
 
         </div>
       </div>
-    </div>
   );
 };
 

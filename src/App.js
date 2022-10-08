@@ -7,11 +7,10 @@ import NewProject from "./components/NewProject.js";
 import SearchProject from "./components/SearchProject.js";
 import TechPerson from "./components/TechPerson.js";
 
+
 function App() {
   return (
     <div className="App">
-
-      <SideMenu />
 
       <div className="content">
         <Routes>

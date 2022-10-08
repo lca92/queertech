@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./UserForm.css";
+import SideMenu from "./SideMenu";
 
 const UserForm = (props) => {
   const [name, setName] = useState("");
@@ -8,9 +9,9 @@ const UserForm = (props) => {
   const [portfolio, setPortfolio] = useState("");
 
   return (
-    <div className="AddMovie">
-      <h4>Cadastro de Usuáries</h4>
+    <div className="createForm">
       <div className="form">
+        <h4>Cadastro de Profissional</h4>
         <form>
           <label>Nome: </label>
           <input type="text" name="name" value={name} />
@@ -26,6 +27,9 @@ const UserForm = (props) => {
 
           <button type="submit">Salvar</button>
         </form>
+      </div>
+      <div>
+        <SideMenu />
       </div>
     </div>
   );

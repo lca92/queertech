@@ -6,22 +6,22 @@ function SideMenu() {
   return (
     <nav className="sideMenu">
       <ul>
-        <Link to="/">
+        <Link to="/" style={{textDecoration:'none'}}>
           <li className="home">Home</li>
         </Link>
-        <Link to="/account">
+        <Link to="/account" style={{textDecoration:'none'}}>
           <li className="account">Cadastro de Profissional</li>
         </Link>
-        <Link to="/newProject">
+        <Link to="/newProject" style={{textDecoration:'none'}}>
           <li className="newProject">Cadastro de Projeto</li>
         </Link>
-        <Link to="/searchProject">
+        <Link to="/searchProject" style={{textDecoration:'none'}}>
           <li className="searchProject">Buscar Projetos</li>
         </Link>
-        <Link to="/techPerson">
+        <Link to="/techPerson" style={{textDecoration:'none'}}>
           <li className="techPerson">Personalidades</li>
         </Link>
-        <Link to="/about">
+        <Link to="/about" style={{textDecoration:'none'}}>
           <li className="about">Quem Somos</li>
         </Link>
       </ul>

@@ -1,36 +1,79 @@
 ul {
   list-style-type: none;
-  width: ;
-  height: ;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }
+
 li {
-  display: inline-block;
   vertical-align: top;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   height: 16.5vh;
-  width: 5vw;
-  margin: 0;
+  width: 500px;
+  margin: 0 0 0 0;
+  font-size: 30px;
+  color: #fff;
+  letter-spacing: 5px;
 }
 
 .home {
   background-color: #e50000;
+  font-family: bebas-neue, sans-serif;
+  opacity: 0.4;
 }
+
+.home:hover{
+  opacity: 1.0;
+}
+
 
 .account {
   background-color: #f28627;
+  font-family: bebas-neue, sans-serif;
+  opacity: 0.4;
+}
+
+.account:hover{
+  opacity: 1.0;
 }
 
 .newProject {
   background-color: #ffee00;
+  font-family: bebas-neue, sans-serif;
+  opacity: 0.4;
+}
+
+.newProject:hover{
+  opacity: 1.0;
 }
 
 .searchProject {
   background-color: #008121;
+  font-family: bebas-neue, sans-serif;
+  opacity: 0.4;
+}
+
+.searchProject:hover{
+  opacity: 1.0;
 }
 
 .techPerson {
   background-color: #004cff;
+  font-family: bebas-neue, sans-serif;
+  opacity: 0.4;
+}
+
+.techPerson:hover{
+  opacity: 1.0;
 }
 
 .about {
   background-color: #760188;
+  font-family: bebas-neue, sans-serif;
+  opacity: 0.4;
+}
+
+.about:hover{
+  opacity: 1.0;
 }

@@ -1,10 +1,11 @@
 import React from "react";
 import ProfileCard from "./ProfileCard";
 import SideMenu from "./SideMenu.js";
+import './About.css';
 
 const About = () => {
   return (
-    <div>
+    <div className="aboutPage">
       <div>
         <ProfileCard
           profileImg=""
@@ -21,6 +22,11 @@ const About = () => {
           linkedin="https://www.linkedin.com/in/araujolena/"
         />
       </div>
+
+      <div>
+        <SideMenu />
+      </div>
+
     </div>
   );
 };

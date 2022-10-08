@@ -1,12 +1,20 @@
-import React from 'react'
-import UserForm from './UserForm'
+import UserForm from "./UserForm";
+import SideMenu from "./SideMenu";
+import './Account.css';
 
 const Account = () => {
   return (
-    <div>
-      <UserForm/>
+    <div className="accountPage">
+      <div>
+        <UserForm />
+      </div>
+      <div>
+        <div>
+          <SideMenu />
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Account
+export default Account;

@@ -40,12 +40,12 @@ li {
   opacity: 1.0;
 }
 
-.searchProject {
+.search {
   background-color: #008121;
   opacity: 0.4;
 }
 
-.searchProject:hover{
+.search:hover{
   opacity: 1.0;
 }
 

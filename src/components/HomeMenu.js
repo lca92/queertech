@@ -24,9 +24,9 @@ const HomeMenu = () => {
             </Link>
           </div>
 
-          <div className="searchProjectPrincipal">
-            <Link to="/search-project" style={{textDecoration:'none'}}>
-              <li>Buscar Projetos</li>
+          <div className="searchPrincipal">
+            <Link to="/search" style={{textDecoration:'none'}}>
+              <li>Buscar</li>
             </Link>
           </div>
 

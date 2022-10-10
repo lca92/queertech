@@ -53,13 +53,13 @@
     opacity: 1.0;
   }
   
-  .searchProjectPrincipal {
+  .searchPrincipal {
     background-color: #008121;
     font-family: bebas-neue, sans-serif;
     opacity: 0.4;
   }
   
-  .searchProjectPrincipal:hover{
+  .searchPrincipal:hover{
     opacity: 1.0;
   }
   

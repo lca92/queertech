@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./UserForm.css";
-import SideMenu from "./SideMenu";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
@@ -14,14 +13,17 @@ const UserForm = (props) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
+
     const newUser = {
       name,
       github,
       linkedin,
       portfolio
     }
-    // await axios.post(URl da API , newUser)
-    navigate('/account')
+   
+    
+    await axios.post('https://ironrest.herokuapp.com/queerTechUsers', newUser)
+    navigate('/search')
   }
 
   return (

@@ -1,4 +1,4 @@
-import "./SearchUser.css";git 
+import "./SearchUser.css";
 import { useState, useEffect } from "react";
 import UserCard from "./UserCard";
 import UserForm from "./UserForm";

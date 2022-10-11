@@ -1,5 +1,4 @@
 import "./SearchProject.css";
-import data from '../data/data.json'
 import {useState} from "react";
 
 // excluir arquivo DATA após inserir a API

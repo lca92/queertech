@@ -1,5 +1,4 @@
-import "./SearchUser.css";
-import data from "../data/data.json";
+import "./SearchUser.css";git 
 import { useState, useEffect } from "react";
 import UserCard from "./UserCard";
 import UserForm from "./UserForm";

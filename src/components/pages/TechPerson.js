@@ -1,4 +1,4 @@
-import SideMenu from "./SideMenu";
+import SideMenu from "../SideMenu";
 import "./TechPerson.css";
 
 const TechPerson = () => {

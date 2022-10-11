@@ -1,6 +1,6 @@
 import React from "react";
-import ProfileCard from "./ProfileCard";
-import SideMenu from "./SideMenu.js";
+import ProfileCard from "../ProfileCard";
+import SideMenu from "../SideMenu.js";
 import './About.css';
 
 const About = () => {

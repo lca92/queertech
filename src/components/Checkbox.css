@@ -1,0 +1,27 @@
+.typeOfWork{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: bebas-neue, sans-serif;
+}
+
+.typeOfWork div{
+    width: 79px;
+    /* padding-right: 10px; */
+    /* padding-left: 10px; */
+    padding-bottom: 30px;
+}
+
+.languages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: bebas-neue, sans-serif;
+}
+
+.languages div{
+    width: 79px;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    padding-bottom: 30px;
+}

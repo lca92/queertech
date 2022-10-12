@@ -15,8 +15,8 @@ function SideMenu() {
         <Link to="/new-project" style={{textDecoration:'none'}}>
           <li className="newProject">Cadastro de Projeto</li>
         </Link>
-        <Link to="/search-project" style={{textDecoration:'none'}}>
-          <li className="searchProject">Buscar Projetos</li>
+        <Link to="/search" style={{textDecoration:'none'}}>
+          <li className="search">Buscar</li>
         </Link>
         <Link to="/tech-person" style={{textDecoration:'none'}}>
           <li className="techPerson">Personalidades</li>

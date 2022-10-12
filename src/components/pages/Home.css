@@ -1,0 +1,49 @@
+.flagStripes {
+  position: relative;
+}
+
+.flagTriangle {
+  position: absolute;
+  top: 0;
+  width: 15%;
+}
+
+.blackTriangle {
+  background-color: #000;
+  clip-path: polygon(0 0, 16.666% 0, 50% 50%, 16.666% 100%, 0 100%);
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+.brownTriangle {
+  background-color: #876446;
+  clip-path: polygon(0 0, 8.333% 0%, 40% 50%, 8.333% 100%, 0 100%);
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+}
+
+.blueTriangle {
+  background-color: #53b2e8;
+  clip-path: polygon(0 0, 30% 50%, 0 100%);
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+}
+
+.pinkTriangle {
+  background-color: #dfa5ba;
+  clip-path: polygon(0 16.666%, 20% 50%, 0 83.333%);
+  width: 100vw;
+  height: 100vh;
+  z-index: 4;
+}
+
+.whiteTriangle {
+  background-color: #fff;
+  clip-path: polygon(0 33.333%, 10% 50%, 0 66.666%);
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+}

@@ -1,4 +1,4 @@
-.form h4{
+.projectForm h4{
     text-align: center;
     font-family: bebas-neue, sans-serif;
     font-size: 30px;
@@ -7,7 +7,7 @@
 }
 
 
-.form {
+.projectForm {
     padding-top: 50px;
     max-width: 500px;
     margin: 0 auto;
@@ -15,14 +15,14 @@
     padding-left: 450px;
 }
 
-.form label{
+.projectForm label{
     text-align: left;
     display: block;
     font-family: bebas-neue, sans-serif;
     letter-spacing: 2px;
 }
 
-.form button{
+.projectForm button{
     text-align: center;
     display: block;
     font-family: bebas-neue, sans-serif;
@@ -30,7 +30,16 @@
 
 }
 
-.form input{
+.projectForm input{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+}
+
+.projectForm textarea{
     width: 100%;
     padding: 6px 10px;
     margin: 10px 0;

@@ -1,6 +1,6 @@
-import UserForm from "./UserForm";
-import SideMenu from "./SideMenu";
-import './Account.css';
+import UserForm from "../UserForm";
+import SideMenu from "../SideMenu";
+import "./Account.css";
 
 const Account = () => {
   return (

@@ -1,11 +1,12 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Home from "./components/Home.js";
-import About from "./components/About.js";
-import Account from "./components/Account.js";
-import NewProject from "./components/NewProject.js";
-import SearchProject from "./components/SearchProject.js";
-import TechPerson from "./components/TechPerson.js";
+import Home from "./components/pages/Home.js";
+import About from "./components/pages/About.js";
+import Account from "./components/pages/Account.js";
+import Project from "./components/pages/Project.js";
+import Search from "./components/pages/Search.js";
+import TechPerson from "./components/pages/TechPerson.js";
+
 
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/account" element={<Account />} />
-          <Route path="/new-project" element={<NewProject />} />
-          <Route path="/search-project" element={<SearchProject />} />
+          <Route path="/new-project" element={<Project />} />
+          <Route path="/search" element={<Search/>} />
           <Route path="/tech-person" element={<TechPerson />} />
         </Routes>
       </div>

@@ -1,10 +1,4 @@
-.searchProjectPage{
-    display: flex;
-    justify-content: flex-end;
-}
-
-
-.searchProjectTitle{
+.searchUserTitle{
     padding: 15px 15px 5px 15px;
     font-family: bebas-neue, sans-serif;
     letter-spacing: 5px;

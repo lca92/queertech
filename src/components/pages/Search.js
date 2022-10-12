@@ -6,14 +6,15 @@ import SearchUser from "../SearchUser";
 const Search = () => {
   return (
     <div className="searchPage">
-      <div>
-        <SearchUser />
-      </div>
+      <div className="searchSection">
+        <div className="userSection">
+          <SearchUser />
+        </div>
 
-      <div>
-        <SearchProject />
+        <div className="projectSection">
+          <SearchProject />
+        </div>
       </div>
-
       <div>
         <SideMenu />
       </div>

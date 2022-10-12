@@ -6,10 +6,10 @@ import Checkbox from "./Checkbox";
 import { useState } from "react";
 
 const ProjectForm = (props) => {
-  const [project, setName] = useState("");
-  const [site, setGithub] = useState("");
+  const [project, setProject] = useState("");
+  const [site, setSite] = useState("");
   const [linkedin, setLinkedin] = useState("");
-  const [instagram, setPortfolio] = useState("");
+  const [instagram, setInstagram] = useState("");
   const [summary, setSummary] = useState("");
   const [homeOffice, setHomeOffice] = useState(false);
   const [presencial, setPresencial] = useState(false);
@@ -53,7 +53,7 @@ const ProjectForm = (props) => {
             required
             value={project}
             onChange={(e) => {
-              setName(e.target.value);
+              setProject(e.target.value);
             }}
           />
           <label>Site: </label>
@@ -62,7 +62,7 @@ const ProjectForm = (props) => {
             required
             value={site}
             onChange={(e) => {
-              setGithub(e.target.value);
+              setSite(e.target.value);
             }}
           />
 
@@ -81,7 +81,7 @@ const ProjectForm = (props) => {
             type="text"
             value={instagram}
             onChange={(e) => {
-              setPortfolio(e.target.value);
+              setInstagram(e.target.value);
             }}
           />
 
@@ -90,7 +90,7 @@ const ProjectForm = (props) => {
             type="text"
             value={summary}
             onChange={(e) => {
-              setPortfolio(e.target.value);
+              setSummary(e.target.value);
             }}
           />
 

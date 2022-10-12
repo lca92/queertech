@@ -1,7 +1,6 @@
 import "./SearchUser.css";
 import { useState, useEffect } from "react";
 import UserCard from "./UserCard";
-import UserForm from "./UserForm";
 import axios from "axios";
 
 const SearchUser = () => {

@@ -1,0 +1,53 @@
+.profileCard {
+  margin: 10em;
+  display: flex;
+  width: 60em;
+}
+
+.cropPic {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.cropPic img {
+  width: 100%;
+}
+
+.person {
+  display: flex;
+  margin-left: 1em;
+}
+
+.person p {
+  font-size: 2.5em;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flag {
+  max-width: 5em;
+
+  /* background-color: blue; */
+}
+
+.bio {
+  padding: 1em;
+  width: 100%;
+}
+
+.bio p {
+  font-size: 1.6em;
+}
+
+.professionalProfiles {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.1em;
+}
+
+.professionalProfiles p {
+  font-size: 1.6em;
+}

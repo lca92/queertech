@@ -8,12 +8,12 @@ const Home = () => {
       <div className="flagStripes">
         <HomeMenu />
       </div>
-      <div className="flagTriangle">
-        <div className="blackTriangle">
-          <div className="brownTriangle">
-            <div className="blueTriangle">
-              <div className="pinkTriangle">
-                <div className="whiteTriangle"></div>
+      <div className="flagTriangle triangles">
+        <div className="blackTriangle triangles">
+          <div className="brownTriangle triangles">
+            <div className="blueTriangle triangles">
+              <div className="pinkTriangle triangles">
+                <div className="whiteTriangle triangles"></div>
               </div>
             </div>
           </div>

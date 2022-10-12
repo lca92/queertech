@@ -8,7 +8,7 @@ const Home = () => {
       <div className="flagStripes">
         <HomeMenu />
       </div>
-      <div className="flagTriangle triangles">
+      <div className="flagTriangle">
         <div className="blackTriangle triangles">
           <div className="brownTriangle triangles">
             <div className="blueTriangle triangles">

@@ -36,7 +36,7 @@ const About = () => {
           Ironhack São Paulo, ambas orgulhosamente parte da comunidade LGBTQIA+.
         </p>
       </div>
-      <div>
+      <div className="profileCards">
         <ProfileCard
           profileImg={roxanie}
           name="Roxanie Fernandes"

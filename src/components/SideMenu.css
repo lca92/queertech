@@ -36,6 +36,6 @@ li {
   background-color: #760188;
 }
 
-li:hover {
-  height: 25vh;
+.sideMenu li:hover {
+  opacity: 0.4;
 }

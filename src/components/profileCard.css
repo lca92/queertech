@@ -1,5 +1,4 @@
 .profileCard {
-  margin: 10em;
   display: flex;
   width: 60em;
 }
@@ -29,8 +28,6 @@
 
 .flag {
   max-width: 5em;
-
-  /* background-color: blue; */
 }
 
 .bio {

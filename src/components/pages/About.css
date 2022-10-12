@@ -3,7 +3,35 @@
   justify-content: space-between;
 }
 
+.aboutText {
+  margin-left: 20em;
+}
+
+.aboutText h1 {
+  font-size: 4em;
+  text-indent: 4rem;
+  margin: 4rem 0 4rem 0;
+}
+
 .aboutText p {
   font-size: 2em;
-  font-family: ;
+  font-family: "Oswald", sans-serif;
+  text-align: justify;
+  margin-bottom: 1em;
+  text-indent: 4rem;
+}
+
+.aboutText strong {
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+}
+
+.aboutText a {
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+}
+
+.profileCards {
+  display: flex;
+  flex-direction: column;
 }

@@ -21,16 +21,22 @@
   font-size: 3rem;
   /* color: #000; */
   letter-spacing: 0.15em;
+  /* cursor: pointer; */
 }
 
 .homePrincipal {
   background-color: #e50000;
   /* font-family: bebas-neue, sans-serif; */
   opacity: 1;
+  /* font-size: 4em; */
 }
 
-.homePrincipal:hover {
+/* .homePrincipal:hover {
   opacity: 0.4;
+} */
+
+.homePrincipal li {
+  font-size: 5em;
 }
 
 .accountPrincipal {

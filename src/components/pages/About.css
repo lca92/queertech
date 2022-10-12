@@ -1,4 +1,9 @@
-.aboutPage{
-    display: flex;
-    justify-content: space-between;
+.aboutPage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutText p {
+  font-size: 2em;
+  font-family: ;
 }

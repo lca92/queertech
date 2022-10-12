@@ -1,40 +1,39 @@
-.form h4{
-    text-align: center;
-    font-family: bebas-neue, sans-serif;
-    font-size: 30px;
-    letter-spacing: 5px;
-    padding-bottom: 35px;
+.form h4 {
+  /* text-align: center; */
+  /* font-family: bebas-neue, sans-serif; */
+  font-size: 3em;
+  letter-spacing: 0.15em;
+  padding-bottom: 1.5em;
 }
-
 
 .form {
-    padding-top: 50px;
-    max-width: 500px;
-    margin: 0 auto;
-    text-align: center;
-    padding-left: 450px;
+  padding-top: 5em;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 30vw;
 }
 
-.form label{
-    text-align: left;
-    display: block;
-    font-family: bebas-neue, sans-serif;
-    letter-spacing: 2px;
+.form label {
+  display: block;
+  text-align: left;
+  font-size: 1.7em;
+  letter-spacing: 0.12em;
+  /* font-family: bebas-neue, sans-serif; */
 }
 
-.form button{
-    text-align: center;
-    display: block;
-    font-family: bebas-neue, sans-serif;
-    font-size: 20px;
-
+.form button {
+  display: inline-block;
+  text-align: center;
+  /* font-family: bebas-neue, sans-serif; */
+  font-size: 2em;
 }
 
-.form input{
-    width: 100%;
-    padding: 6px 10px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-    box-sizing: border-box;
-    display: block;
+.form input {
+  width: 100%;
+  /* padding: 0.16em 10em; */
+  margin: 1em 0;
+  border: 0.01em solid #ddd;
+  /* box-sizing: border-box; */
+  /* display: block; */
 }

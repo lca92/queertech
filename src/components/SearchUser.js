@@ -5,7 +5,7 @@ import axios from "axios";
 
 const SearchUser = () => {
   const [users, setUser] = useState([]);
-  const [search, setSearch] = useState(false);
+  const [search, setSearch] = useState("");
 
   const getUsers = async () => {
     const { data } = await axios.get(
@@ -18,13 +18,20 @@ const SearchUser = () => {
     getUsers();
   }, []);
 
+  // const userFilter = getUsers.filter((user) => user.startsWith(search));
   return (
     <div className="searchProfessional">
       <div className="searchUserTitle">
         <h2>Buscar Profissional</h2>
+        <input
+          type="text"
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+        />
       </div>
       <div className="userMap">
-        {users.map((user) => (
+        {/* getUsers.map */}
+        {users.map((user) => ( 
           <UserCard
             key={user._id}
             name={user.name}

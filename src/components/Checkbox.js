@@ -6,17 +6,7 @@ const Checkbox = ({homeOffice, presencial, pj, clt, junior, pleno, senior, javas
   // const [isChecked, setIsChecked] = useState(false);
 
   const check = () => {
-    // setIsChecked(!isChecked);
-    // setHomeOffice(!homeOffice);
-    // setPresencial(!presencial);
-    // setPj(!pj);
-    // setClt(!clt);
-    // setJunior(!junior);
-    // setPleno(!pleno);
-    // setSenior(!senior);
-    // setJavaScript(!javascript);
-    // setHtml(!html);
-    // speechSynthesis(!css);
+
   };
 
   return (

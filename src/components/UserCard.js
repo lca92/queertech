@@ -8,6 +8,7 @@ const UserCard = (props) => {
         <p>Github: {props.github}</p>
         <p>LinkedIn: {props.linkedin}</p>
         <p>Portfólio: {props.portfolio}</p>
+        {/* <p>Tipos de Trabalho: {props.homeOffice}</p> */}
     </div>
   )
 }

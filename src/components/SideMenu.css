@@ -2,14 +2,10 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* text-align: center; */
-  /* flex-wrap: wrap; */
-  /* vertical-align: top; */
   height: 16.666vh;
   width: 10vw;
   color: #000;
   font-size: 1.4em;
-  /* padding: 0; */
 }
 
 .home {

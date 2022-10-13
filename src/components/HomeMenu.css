@@ -1,39 +1,21 @@
 .homeMenu ul {
   display: flex;
-  /* justify-content: right; */
   flex-direction: column;
   list-style-type: none;
   align-items: flex-end;
-  /* width: 100vw; */
-  /* margin: 0; */
-  /* padding: 0; */
-  /* font-family: bebas-neue, sans-serif; */
 }
 
 .homeMenu li {
-  /* vertical-align: top; */
-  /* display: inline-flex; */
-  /* align-items: center; */
   justify-content: right;
-  /* height: 16.666vh; */
   width: 100vw;
   margin-right: 5vw;
   font-size: 3rem;
-  /* color: #000; */
   letter-spacing: 0.15em;
-  /* cursor: pointer; */
 }
 
 .homePrincipal {
   background-color: #e50000;
-  /* font-family: bebas-neue, sans-serif; */
-  opacity: 1;
-  /* font-size: 4em; */
 }
-
-/* .homePrincipal:hover {
-  opacity: 0.4;
-} */
 
 .homePrincipal li {
   font-size: 5em;
@@ -41,7 +23,6 @@
 
 .accountPrincipal {
   background-color: #f28627;
-  /* font-family: bebas-neue, sans-serif; */
   opacity: 1;
 }
 
@@ -51,7 +32,6 @@
 
 .newProjectPrincipal {
   background-color: #ffee00;
-  /* font-family: bebas-neue, sans-serif; */
   opacity: 1;
 }
 
@@ -61,7 +41,6 @@
 
 .searchPrincipal {
   background-color: #008121;
-  /* font-family: bebas-neue, sans-serif; */
   opacity: 1;
 }
 
@@ -71,7 +50,6 @@
 
 .techPersonPrincipal {
   background-color: #004cff;
-  /* font-family: bebas-neue, sans-serif; */
   opacity: 1;
 }
 
@@ -81,7 +59,6 @@
 
 .aboutPrincipal {
   background-color: #760188;
-  /* font-family: bebas-neue, sans-serif; */
   opacity: 1;
 }
 

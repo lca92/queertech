@@ -4,23 +4,19 @@ import "./TechPersonCard.css";
 const TechPersonCard = ({ profileImg, name, flag, bio }) => {
   return (
     <div className="profileCard">
-      <div>
+      <div className="techInfo">
         <div className="cropPic">
           <img src={profileImg} alt="Profile" />
         </div>
-      </div>
 
-      <div>
-        <div className="person">
+        <div className="techPersonInfo">
           <h2 className="name">{name}</h2>
           <img className="flag" src={flag} alt="Flag" />
         </div>
       </div>
 
-      <div>
-        <div className="bio">
+      <div className="techBio">
           <p>{bio}</p>
-        </div>
       </div>
     </div>
   );

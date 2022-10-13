@@ -14,11 +14,11 @@ const TechPerson = () => {
   return (
     <div className="techPersonPage">
       <div>
-        <div>
+        <header>
           <h1>Personalidades LGBTQIA+ na tecnologia</h1>
           <p>Pessoas LGBTQIA+ que mudaram o curso da história da tecnologia</p>
-        </div>
-        <div>
+        </header>
+        <div className="techPersonCards">
           <TechPersonCard
             profileImg={leannePittsford}
             name="Leanne Pittsford"

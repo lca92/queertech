@@ -2,29 +2,30 @@ import "./SearchUser.css";
 import { useState, useEffect } from "react";
 import UserCard from "./UserCard";
 import axios from "axios";
-import { useParams } from "react-router-dom";
 
 const SearchUser = () => {
   const [users, setUser] = useState([]);
   const [search, setSearch] = useState("");
   const [filteredUsers, setFilteredUsers] = useState([]);
 
-  const getUsers = async () => {
-    const { data } = await axios.get(
-      "https://ironrest.herokuapp.com/queerTechUsers"
-    );
-    setUser(data);
-    setFilteredUsers(data);
-  };
-
   useEffect(() => {
+    const getUsers = async () => {
+      const { data } = await axios.get(
+        "https://ironrest.herokuapp.com/queerTechUsers"
+      );
+      setUser(data);
+      setFilteredUsers(data);
+    };
     getUsers();
-  }, []);
+  }, [users]);
 
   useEffect(() => {
     if (search !== "") {
       const filteredData = users.filter((user) => {
-        return user.languages.includes(search.toUpperCase()) || user.typeOfWork.includes(search.toUpperCase());
+        return (
+          user.languages.includes(search.toUpperCase()) ||
+          user.typeOfWork.includes(search.toUpperCase())
+        );
       });
       setFilteredUsers(filteredData);
     } else {

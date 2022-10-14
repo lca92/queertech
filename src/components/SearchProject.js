@@ -5,18 +5,17 @@ import axios from "axios";
 
 const SearchProject = () => {
   const [projects, setProject] = useState([]);
-  const [search, setSearch] = useState(false);
-
-  const getProjects = async () => {
-    const { data } = await axios.get(
-      "https://ironrest.herokuapp.com/queerTechProjects"
-    );
-    setProject(data);
-  };
+  // const [search, setSearch] = useState(false);
 
   useEffect(() => {
+    const getProjects = async () => {
+      const { data } = await axios.get(
+        "https://ironrest.herokuapp.com/queerTechProjects"
+      );
+      setProject(data);
+    };
     getProjects();
-  }, []);
+  }, [projects]);
 
   return (
     <div className="searchProjectPage">

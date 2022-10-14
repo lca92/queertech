@@ -44,7 +44,7 @@ const About = () => {
             profileImg={roxanie}
             name="Roxanie Fernandes"
             flag={lesbianFlag}
-            bio="Boanoiteira oficial, paulista, xx anos"
+            bio="Estudante de web development, paulista, 34 anos"
             github="https://github.com/RoxanieFernandes"
             linkedin="https://www.linkedin.com/in/roxanie-fernandes-6077a89b"
           />

@@ -21,7 +21,11 @@ const About = () => {
           </p>
           <p>
             Mas por que ter diversidade na tecnologia? Segundo{" "}
-            <a href="https://www.cnnbrasil.com.br/business/lgbtqi-54-nao-sentem-seguranca-no-ambiente-de-trabalho/">
+            <a
+              href="https://www.cnnbrasil.com.br/business/lgbtqi-54-nao-sentem-seguranca-no-ambiente-de-trabalho/"
+              target="_blank"
+              rel="noreferrer"
+            >
               pesquisa
             </a>
             , 54% das pessoas LGBTQIA+ "não sente segurança para falar

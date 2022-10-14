@@ -6,12 +6,13 @@
   position: absolute;
   top: 0;
   width: 15%;
+   
 }
 
 .triangles {
   width: 100vw;
-  height: 100vh;
-}
+  height: 100vh; 
+  }
 
 .blackTriangle {
   background-color: #000;

@@ -2,23 +2,36 @@ import "./SearchUser.css";
 import { useState, useEffect } from "react";
 import UserCard from "./UserCard";
 import axios from "axios";
+import { useParams } from "react-router-dom";
 
 const SearchUser = () => {
   const [users, setUser] = useState([]);
   const [search, setSearch] = useState("");
+  const [filteredUsers, setFilteredUsers] = useState([]);
 
   const getUsers = async () => {
     const { data } = await axios.get(
       "https://ironrest.herokuapp.com/queerTechUsers"
     );
     setUser(data);
+    setFilteredUsers(data);
   };
 
   useEffect(() => {
     getUsers();
   }, []);
 
-  // const userFilter = getUsers.filter((user) => user.startsWith(search));
+  useEffect(() => {
+    if (search !== "") {
+      const filteredData = users.filter((user) => {
+        return user.languages.includes(search.toUpperCase()) || user.typeOfWork.includes(search.toUpperCase());
+      });
+      setFilteredUsers(filteredData);
+    } else {
+      setFilteredUsers(users);
+    }
+  }, [search]);
+
   return (
     <div className="searchProfessional">
       <div className="searchUserTitle">
@@ -26,18 +39,21 @@ const SearchUser = () => {
         <input
           type="text"
           value={search}
-          onChange={(e) => setSearch(e.target.value)}
+          onChange={(e) => {
+            setSearch(e.target.value);
+          }}
         />
       </div>
       <div className="userMap">
-        {/* getUsers.map */}
-        {users.map((user) => ( 
+        {filteredUsers.map((user) => (
           <UserCard
             key={user._id}
             name={user.name}
             github={user.github}
             linkedin={user.linkedin}
             portfolio={user.portfolio}
+            typeOfWork={user.typeOfWork}
+            languages={user.languages}
           />
         ))}
       </div>

@@ -1,8 +1,6 @@
-import React from "react";
 import "./ProjectForm.css";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import Checkbox from "./Checkbox";
 import { useState } from "react";
 
 const ProjectForm = (props) => {
@@ -24,8 +22,22 @@ const ProjectForm = (props) => {
 
   const navigate = useNavigate();
 
+  let typeOfWork = [];
+  let languages = [];
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (homeOffice) typeOfWork.push("Remoto");
+    if (presencial) typeOfWork.push("Presencial");
+    if (pj) typeOfWork.push("PJ");
+    if (clt) typeOfWork.push("CLT");
+    if (junior) typeOfWork.push("Júnior");
+    if (pleno) typeOfWork.push("Pleno");
+    if (senior) typeOfWork.push("Sênior");
+
+    if (javaScript) languages.push("JavaScript");
+    if (html) languages.push("HTML");
+    if (css) languages.push("CSS");
 
     const newProject = {
       project,
@@ -33,6 +45,8 @@ const ProjectForm = (props) => {
       linkedin,
       instagram,
       summary,
+      typeOfWork,
+      languages,
     };
 
     await axios.post(
@@ -94,7 +108,148 @@ const ProjectForm = (props) => {
             }}
           />
 
-          <Checkbox />
+<div className="typeOfWork">
+              <div className="homeOffice">
+                <input
+                  type="checkbox"
+                  id="homeOffice"
+                  name="homeOffice"
+                  value="HomeOffice"
+                  checked={homeOffice}
+                  onChange={() => {
+                    setHomeOffice(!homeOffice);
+                  }}
+                />
+                Remoto
+              </div>
+              <div className="presencial">
+                <input
+                  type="checkbox"
+                  id="presencial"
+                  name="presencial"
+                  value="Presencial"
+                  checked={presencial}
+                  onChange={() => {
+                    setPresencial(!presencial);
+                  }}
+                />
+                Presencial
+              </div>
+
+              <div className="pj">
+                <input
+                  type="checkbox"
+                  id="pj"
+                  name="pj"
+                  value="pj"
+                  checked={pj}
+                  onChange={() => {
+                    setPj(!pj);
+                  }}
+                />
+                PJ
+              </div>
+
+              <div className="clt">
+                <input
+                  type="checkbox"
+                  id="clt"
+                  name="clt"
+                  value="clt"
+                  checked={clt}
+                  onChange={() => {
+                    setClt(!clt);
+                  }}
+                />
+                CLT
+              </div>
+
+              <div className="junior">
+                <input
+                  type="checkbox"
+                  id="junior"
+                  name="junior"
+                  value="junior"
+                  checked={junior}
+                  onChange={() => {
+                    setJunior(!junior);
+                  }}
+                />
+                Júnior
+              </div>
+
+              <div className="pleno">
+                <input
+                  type="checkbox"
+                  id="pleno"
+                  name="pleno"
+                  value="pleno"
+                  checked={pleno}
+                  onChange={() => {
+                    setPleno(!pleno);
+                  }}
+                />
+                Pleno
+              </div>
+
+              <div className="senior">
+                <input
+                  type="checkbox"
+                  id="senior"
+                  name="senior"
+                  value="senior"
+                  checked={senior}
+                  onChange={() => {
+                    setSenior(!senior);
+                  }}
+                />
+                Sênior
+              </div>
+            </div>
+            <div className="languages">
+              <div className="javascript">
+                <input
+                  type="checkbox"
+                  id="javascript"
+                  name="javascript"
+                  value="javascript"
+                  checked={javaScript}
+                  onChange={() => {
+                    setJavaScript(!javaScript);
+                  }}
+                />
+                JavaScript
+              </div>
+              <div className="html">
+                <input
+                  type="checkbox"
+                  id="html"
+                  name="html"
+                  value="html"
+                  checked={html}
+                  onChange={() => {
+                    setHtml(!html);
+                  }}
+                />
+                HTML
+              </div>
+
+              <div className="css">
+                <input
+                  type="checkbox"
+                  id="css"
+                  name="css"
+                  value="css"
+                  checked={css}
+                  onChange={() => {
+                    setCss(!css);
+                  }}
+                />
+                CSS
+              </div>
+            </div>
+
+        
 
           <button type="submit">Salvar</button>
         </form>

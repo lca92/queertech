@@ -4,7 +4,7 @@ import SideMenu from "../SideMenu.js";
 import "./About.css";
 import bisexualFlag from "../../img/bisexualFlag.png";
 import lesbianFlag from "../../img/lesbianFlag.png";
-import lena from "../../img/lena.jpeg";
+import lena from "../../img/lena.png";
 import roxanie from "../../img/roxanie.jpg";
 
 const About = () => {

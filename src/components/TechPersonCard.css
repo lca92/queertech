@@ -7,17 +7,6 @@
   max-width: 30vw;
 }
 
-.cropPic {
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
-.cropPic img {
-  width: 100%;
-}
-
 .techInfo {
   display: flex;
   flex-direction: row;

@@ -5,7 +5,8 @@ import axios from "axios";
 
 const SearchProject = () => {
   const [projects, setProject] = useState([]);
-  // const [search, setSearch] = useState(false);
+  const [find, setfind] = useState("");
+  const [filteredProjects, setFilteredProjects] = useState([]);
 
   useEffect(() => {
     const getProjects = async () => {
@@ -13,17 +14,39 @@ const SearchProject = () => {
         "https://ironrest.herokuapp.com/queerTechProjects"
       );
       setProject(data);
+      setFilteredProjects(data);
     };
     getProjects();
   }, [projects]);
+
+  useEffect(() => {
+    if (find !== "") {
+      const filteredData = projects.filter((project) => {
+        return (
+          project.languages.includes(find.toUpperCase()) ||
+          project.typeOfWork.includes(find.toUpperCase())
+        );
+      });
+      setFilteredProjects(filteredData);
+    } else {
+      setFilteredProjects(projects);
+    }
+  }, [find, projects]);
 
   return (
     <div className="searchProjectPage">
       <div className="searchProjectTitle">
         <h2>Buscar Projeto</h2>
+        <input
+          type="text"
+          value={find}
+          onChange={(e) => {
+            setfind(e.target.value);
+          }}
+        />
       </div>
       <div className="projectMap">
-        {projects.map((project) => (
+        {filteredProjects.map((project) => (
           <ProjectCard
             key={project._id}
             project={project.project}
@@ -31,6 +54,8 @@ const SearchProject = () => {
             instagram={project.instagram}
             linkedin={project.linkedin}
             summary={project.summary}
+            typeOfWork={project.typeOfWork}
+            languages={project.languages}
           />
         ))}
       </div>

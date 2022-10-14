@@ -27,15 +27,15 @@ const ProjectForm = (props) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (homeOffice) typeOfWork.push("Remoto");
-    if (presencial) typeOfWork.push("Presencial");
+    if (homeOffice) typeOfWork.push("REMOTO");
+    if (presencial) typeOfWork.push("PRESENCIAL");
     if (pj) typeOfWork.push("PJ");
     if (clt) typeOfWork.push("CLT");
-    if (junior) typeOfWork.push("Júnior");
-    if (pleno) typeOfWork.push("Pleno");
-    if (senior) typeOfWork.push("Sênior");
+    if (junior) typeOfWork.push("JÚNIOR");
+    if (pleno) typeOfWork.push("PLENO");
+    if (senior) typeOfWork.push("SÊNIOR");
 
-    if (javaScript) languages.push("JavaScript");
+    if (javaScript) languages.push("JAVASCRIPT");
     if (html) languages.push("HTML");
     if (css) languages.push("CSS");
 
@@ -120,7 +120,7 @@ const ProjectForm = (props) => {
                     setHomeOffice(!homeOffice);
                   }}
                 />
-                Remoto
+                REMOTO
               </div>
               <div className="presencial">
                 <input
@@ -133,7 +133,7 @@ const ProjectForm = (props) => {
                     setPresencial(!presencial);
                   }}
                 />
-                Presencial
+                PRESENCIAL
               </div>
 
               <div className="pj">
@@ -175,7 +175,7 @@ const ProjectForm = (props) => {
                     setJunior(!junior);
                   }}
                 />
-                Júnior
+                JÚNIOR
               </div>
 
               <div className="pleno">
@@ -189,7 +189,7 @@ const ProjectForm = (props) => {
                     setPleno(!pleno);
                   }}
                 />
-                Pleno
+                PLENO
               </div>
 
               <div className="senior">
@@ -203,7 +203,7 @@ const ProjectForm = (props) => {
                     setSenior(!senior);
                   }}
                 />
-                Sênior
+                SÊNIOR
               </div>
             </div>
             <div className="languages">
@@ -218,7 +218,7 @@ const ProjectForm = (props) => {
                     setJavaScript(!javaScript);
                   }}
                 />
-                JavaScript
+                JAVASCRIPT
               </div>
               <div className="html">
                 <input

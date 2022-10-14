@@ -31,7 +31,7 @@ const SearchUser = () => {
     } else {
       setFilteredUsers(users);
     }
-  }, [search]);
+  }, [search, users]);
 
   return (
     <div className="searchProfessional">

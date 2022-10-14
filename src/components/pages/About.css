@@ -1,16 +1,18 @@
 .aboutPage {
   display: flex;
   justify-content: space-between;
+  margin-left: 10em;
 }
 
-.aboutText {
-  margin-left: 20em;
+.mainAbout {
+  flex-direction: column;
+  max-width: 65vw;
 }
 
 .aboutText h1 {
   font-size: 4em;
-  text-indent: 4rem;
-  margin: 4rem 0 4rem 0;
+  padding-top: 10rem;
+  padding-bottom: 3rem;
 }
 
 .aboutText p {
@@ -33,5 +35,6 @@
 
 .profileCards {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  margin-right: 1rem;
 }

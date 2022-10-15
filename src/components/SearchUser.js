@@ -38,6 +38,7 @@ const SearchUser = () => {
       <div className="searchUserTitle">
         <h2>Buscar Profissional</h2>
         <input
+          placeholder="Buscar Profissional..."
           type="text"
           value={search}
           onChange={(e) => {

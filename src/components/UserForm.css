@@ -1,17 +1,16 @@
 .form h4 {
-  /* text-align: center; */
-  /* font-family: bebas-neue, sans-serif; */
   font-size: 3em;
   letter-spacing: 0.15em;
-  padding-bottom: 1.5em;
+  padding-bottom: 1.2em;
 }
 
 .form {
-  padding-top: 5em;
+  padding-top: 4em;
   max-width: 500px;
   margin: 0 auto;
   text-align: center;
   padding-left: 30vw;
+  padding-bottom: 4em;
 }
 
 .form label {
@@ -19,21 +18,91 @@
   text-align: left;
   font-size: 1.7em;
   letter-spacing: 0.12em;
-  /* font-family: bebas-neue, sans-serif; */
 }
 
 .form button {
   display: inline-block;
   text-align: center;
-  /* font-family: bebas-neue, sans-serif; */
   font-size: 2em;
 }
 
 .form input {
   width: 100%;
-  /* padding: 0.16em 10em; */
+  padding: 0.5vw;
   margin: 1em 0;
   border: 0.01em solid #ddd;
-  /* box-sizing: border-box; */
-  /* display: block; */
+  font-size: 1.5em;
+  font-family: "Oswald", sans-serif;
+}
+
+.typeOfWork{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: bebas-neue, sans-serif;
+}
+
+.typeOfWork div{
+  width: 6vw;
+  padding-bottom: 1.2vw;
+}
+
+.languages{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: bebas-neue, sans-serif;
+}
+
+.languages div{
+  width: 6vw;
+  padding-bottom: 1.2vw;
+}
+
+.homeOffice {
+  font-size: 1.2vw;
+}
+
+.presencial {
+  font-size: 1.2vw;
+}
+
+.pj {
+  font-size: 1.2vw;
+}
+
+.clt {
+  font-size: 1.2vw;
+}
+
+.junior {
+  font-size: 1.2vw;
+}
+
+.pleno {
+  font-size: 1.2vw;
+}
+
+.senior {
+  font-size: 1.2vw;
+}
+
+.javascript{
+  font-size: 1.2vw;
+}
+
+.html {
+  font-size: 1.2vw;
+}
+
+.css {
+  font-size: 1.2vw;
+}
+
+.typeOfWork input{
+  margin-bottom: 1vh;
+}
+
+.languages input{
+  margin-bottom: 1vh;
 }

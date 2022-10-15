@@ -10,7 +10,7 @@ const Search = () => {
         <div className="userSection">
           <SearchUser />
         </div>
-
+        
         <div className="projectSection">
           <SearchProject />
         </div>

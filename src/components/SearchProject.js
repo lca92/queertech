@@ -38,6 +38,7 @@ const SearchProject = () => {
       <div className="searchProjectTitle">
         <h2>Buscar Projeto</h2>
         <input
+          placeholder="Buscar Projeto..."
           type="text"
           value={find}
           onChange={(e) => {

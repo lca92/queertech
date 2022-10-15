@@ -1,6 +1,7 @@
 .searchPage{
     display: flex   ;
     justify-content: space-between;
+    padding-left: 3vw;
 }
 
 .searchSection {
@@ -16,6 +17,8 @@
 }
 
 .projectSection{
-    height: 50%;
+    height: 100%;
     width: 50%;
+    border-left: 1px dashed #eee;
+    padding-left: 3vw;
 }

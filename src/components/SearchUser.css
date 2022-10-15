@@ -1,5 +1,20 @@
 .searchUserTitle{
-    padding: 15px 15px 5px 15px;
+    padding: 3vw;
     font-family: bebas-neue, sans-serif;
     letter-spacing: 5px;
+    
 }
+.searchUserTitle h2{
+    font-size: 3em;
+}
+
+.searchProfessional input{
+    width: 60%;
+    padding: 0.5vw;
+    margin: 1em 0;
+    border: 0.01em solid #ddd;
+    border-radius: 0.3em;
+    font-size: 1.5em;
+    letter-spacing: 0.12em;
+}
+

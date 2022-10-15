@@ -6,7 +6,7 @@ O projeto For (queer in tech) nasce da necessidade de um mercado de tecnologia m
 
 ## Deploy
 
-Para visualizar nosso projeto, basta clicar [aqui](https://deploy-preview-28--starlit-daifuku-b8a9b8.netlify.app/).
+Para visualizar nosso projeto, basta clicar [aqui](https://main--starlit-daifuku-b8a9b8.netlify.app/).
 
 ## Autores
 

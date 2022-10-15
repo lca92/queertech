@@ -34,13 +34,13 @@ const ProjectCard = ({
       </div>
       <div className="projectIcons">
       <a href={site}>
-          <img src={siteIcon} className="siteIcon" />
+          <img src={siteIcon} alt="Site Icon" className="siteIcon" />
         </a>
         <a href={linkedin}>
-          <img src={linkedinIcon} className="linkedinIcon" />
+          <img src={linkedinIcon} alt="Linkedin Icon" className="linkedinIcon" />
         </a>
         <a href={instagram}>
-          <img src={instagramIcon} className="instagramIcon" />
+          <img src={instagramIcon} alt="Instagram Icon" className="instagramIcon" />
         </a>
       </div>
         <hr/>

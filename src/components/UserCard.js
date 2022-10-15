@@ -29,13 +29,13 @@ const UserCard = ({
       
       <div className="icons">
         <a href={github}>
-          <img src={githubIcon} className="githubIcon" />
+          <img src={githubIcon} alt="Github Icon" className="githubIcon" />
         </a>
         <a href={linkedin}>
-          <img src={linkedinIcon} className="linkedinIcon" />
+          <img src={linkedinIcon} alt="Linkedin Icon"className="linkedinIcon" />
         </a>
         <a href={portfolio}>
-          <img src={portfolioIcon} className="portfolioIcon" />
+          <img src={portfolioIcon} alt="Portfolio Icon" className="portfolioIcon" />
         </a>
       </div>
       <hr/>

@@ -1,5 +1,5 @@
 import "./SearchProject.css";
-import { useState, useEffect } from "react";
+import { useState, useLayoutEffect } from "react";
 import ProjectCard from "./ProjectCard";
 import axios from "axios";
 
@@ -8,7 +8,7 @@ const SearchProject = () => {
   const [find, setfind] = useState("");
   const [filteredProjects, setFilteredProjects] = useState([]);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const getProjects = async () => {
       const { data } = await axios.get(
         "https://ironrest.herokuapp.com/queerTechProjects"
@@ -19,7 +19,7 @@ const SearchProject = () => {
     getProjects();
   }, [projects]);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (find !== "") {
       const filteredData = projects.filter((project) => {
         return (

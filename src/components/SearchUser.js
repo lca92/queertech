@@ -1,5 +1,5 @@
 import "./SearchUser.css";
-import { useState, useEffect } from "react";
+import { useState, useLayoutEffect } from "react";
 import UserCard from "./UserCard";
 import axios from "axios";
 
@@ -8,7 +8,7 @@ const SearchUser = () => {
   const [search, setSearch] = useState("");
   const [filteredUsers, setFilteredUsers] = useState([]);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const getUsers = async () => {
       const { data } = await axios.get(
         "https://ironrest.herokuapp.com/queerTechUsers"
@@ -19,7 +19,7 @@ const SearchUser = () => {
     getUsers();
   }, [users]);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (search !== "") {
       const filteredData = users.filter((user) => {
         return (

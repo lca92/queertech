@@ -37,6 +37,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /* background-color: red; */
   margin-left: 10rem;
+  padding-bottom: 3vh;
+}
+
+.profileCards p{
+  font-size: 1.5vw;
 }
